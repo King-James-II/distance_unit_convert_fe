@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Linking to external stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    <!-- Input field for user to enter number -->
+    <input type="number" placeholder="Enter number..." id="userInput">
+    <!-- Dropdown menu for selecting conversion type -->
+    <select id="unit">
+      <option value="milesToKm">Miles to Kilometers</option>
+      <option value="kmToMiles">Kilometers to Miles</option>
+    </select>
+    <!-- Button to trigger conversion -->
+    <button onclick="convert()">Convert</button>
+    <!-- Displaying result -->
+    <p>Result: <span id="resultElement">0</span></p>
+    <!-- Linking to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
